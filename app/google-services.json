@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "550130810117",
+    "project_id": "fordhub-b8f09",
+    "storage_bucket": "fordhub-b8f09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550130810117:android:830cf5c0533fd735fb4b6c",
+        "android_client_info": {
+          "package_name": "com.ab.fordhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550130810117-0gtv50csjc5302dqoug1drtt59hfkv27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ab.fordhub",
+            "certificate_hash": "3b0c6a93f1ac7248c3ca24ab4c9130f28d05d3eb"
+          }
+        },
+        {
+          "client_id": "550130810117-td02hh3i8nrvbdbd5663i4m2o4slad9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbaJAyTdU5R471Ve64jlhGwpKLtEd23YY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550130810117-td02hh3i8nrvbdbd5663i4m2o4slad9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

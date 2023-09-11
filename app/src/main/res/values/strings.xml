@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">FordHub</string>
+    <string name="home">Home</string>
+    <string name="service">Service</string>
+    <string name="ford_centers">Ford Centers</string>
+    <string name="profile">Profile</string>
+
+    <string name="loading">Loading…</string>
+    <string name="error_unexpected_message">Unexpected error occurred. We are working on it.</string>
+    <string name="error_client_unexpected_message">Something technically is wrong. We are working on it.</string>
+    <string name="error_server_unexpected_message">Oops! Something went wrong on the server. We are working on it.</string>
+    <string name="error_timeout_message">Looks like the server is taking to long to respond, this can be caused by either poor connectivity or an error with our servers. Please try again in a while</string>
+    <string name="error_network">Can\'t connect to the server. Please make sure you\'re connected to the internet.</string>
+
+    <string name="recent_vehicles">Recent Vehicles</string>
+    <string name="test_drive_vehicles">Test Drive Vehicles</string>
+
+    <string name="label_back">Back</string>
+    <string name="detail_header">Details</string>
+    <string name="features">Features</string>
+    <string name="specification">Specification</string>
+
+    <string name="vehicle_services">Vehicle Services</string>
 </resources>
