@@ -117,7 +117,13 @@ fun VehicleServiceScreenContent(vehicleService: List<VehicleService>,bookedVehic
         }
         if(bookedVehicleService.isNotEmpty()) {
             ExtendedFloatingActionButton(
-                onClick = { },
+                onClick = {
+                    viewModel.navManager.navigate(
+                        NavInfo(id = Route.Home.Services.SERVICE_DETAIL,
+                            navOption = NavOptions.Builder().setPopUpTo(Route.Home.Services.SERVICE_LIST, inclusive = true).build()
+                        )
+                    )
+                },
                 modifier = Modifier
                     .align(Alignment.BottomEnd)
                     .padding(16.dp)
@@ -137,8 +143,7 @@ fun VehicleServiceScreenContent(vehicleService: List<VehicleService>,bookedVehic
 @Composable
 fun BookedServiceCard(bookedVehicleService: List<VehicleServiceDetail>) {
     LazyColumn(
-        modifier =  Modifier.fillMaxWidth()
-            .padding(25.dp),
+        modifier =  Modifier.fillMaxWidth(),
         horizontalAlignment = Alignment.CenterHorizontally,
         state = rememberLazyListState()
     ) {
